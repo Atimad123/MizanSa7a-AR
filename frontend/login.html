@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NutriVoice AR — تسجيل الدخول</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --emerald: #1a8c5b;
+    --emerald-light: #22a86e;
+    --emerald-pale: #e6f4ed;
+    --emerald-faint: #f0f9f4;
+    --sage: #7aab8c;
+    --sage-light: #b2d4c0;
+    --bg: #f5f8f6;
+    --bg2: #edf4f0;
+    --white: #ffffff;
+    --card: #ffffff;
+    --border: #d4e8db;
+    --border-strong: #b8d9c5;
+    --text: #1a2e22;
+    --text2: #2d4a38;
+    --muted: #6b9478;
+    --muted2: #9dbfaa;
+    --error: #d94f4f;
+    --error-bg: #fdf1f1;
+    --success-bg: #edfaf3;
+    --shadow-sm: 0 2px 8px rgba(26,140,91,0.08);
+    --shadow-md: 0 8px 32px rgba(26,140,91,0.12);
+    --shadow-lg: 0 24px 64px rgba(26,140,91,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Soft organic blobs */
+  body::before {
+    content: '';
+    position: fixed; top: -20%; right: -10%;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(34,168,110,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  body::after {
+    content: '';
+    position: fixed; bottom: -15%; left: -10%;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(122,171,140,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Decorative leaves pattern */
+  .bg-pattern {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    opacity: 0.03;
+    background-image: radial-gradient(circle at 1px 1px, var(--emerald) 1.5px, transparent 0);
+    background-size: 36px 36px;
+  }
+
+  .wrapper {
+    position: relative; z-index: 1;
+    width: 100%; max-width: 480px;
+    animation: floatUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @keyframes floatUp {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Brand */
+  .brand {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .brand-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 76px; height: 76px;
+    background: linear-gradient(145deg, #ffffff, var(--emerald-pale));
+    border: 2px solid var(--border);
+    border-radius: 24px;
+    font-size: 36px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255,255,255,0.8);
+  }
+  .brand h1 {
+    font-size: 28px; font-weight: 900; letter-spacing: -0.5px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .brand h1 span { color: var(--emerald); }
+  .brand p { font-size: 13px; color: var(--muted); font-weight: 400; }
+
+  /* Card */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 36px 32px;
+    box-shadow: var(--shadow-lg);
+    position: relative; overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--emerald-light), #5dc9a0, var(--emerald-light));
+  }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    background: var(--bg2);
+    border-radius: 14px; padding: 4px;
+    margin-bottom: 28px;
+    border: 1px solid var(--border); gap: 4px;
+  }
+  .tab {
+    flex: 1; padding: 10px 16px;
+    border: none; background: transparent;
+    color: var(--muted); cursor: pointer;
+    border-radius: 11px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14px; font-weight: 700;
+    transition: all 0.22s; letter-spacing: 0.2px;
+  }
+  .tab.active {
+    background: var(--white);
+    color: var(--emerald);
+    box-shadow: 0 2px 10px rgba(26,140,91,0.12);
+    border: 1px solid var(--border);
+  }
+  .tab:not(.active):hover { color: var(--text2); background: rgba(255,255,255,0.6); }
+
+  /* Form */
+  .form-group { margin-bottom: 18px; }
+  label {
+    display: block; font-size: 12px; color: var(--muted);
+    margin-bottom: 8px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1.2px;
+  }
+  .input-wrap { position: relative; }
+  .input-icon {
+    position: absolute; top: 50%; right: 14px;
+    transform: translateY(-50%); font-size: 15px;
+    pointer-events: none; opacity: 0.5;
+  }
+  input {
+    width: 100%;
+    padding: 13px 44px 13px 16px;
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px; outline: none; direction: ltr;
+    transition: all 0.22s;
+  }
+  input:focus {
+    border-color: var(--emerald-light);
+    background: var(--white);
+    box-shadow: 0 0 0 4px rgba(34,168,110,0.1);
+  }
+  input::placeholder { color: var(--muted2); }
+
+  /* Button */
+  .btn {
+    width: 100%; padding: 14px;
+    background: linear-gradient(135deg, var(--emerald) 0%, var(--emerald-light) 100%);
+    border: none; border-radius: 14px;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px; font-weight: 800;
+    cursor: pointer; margin-top: 8px;
+    transition: all 0.25s; position: relative; overflow: hidden;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 20px rgba(26,140,91,0.3);
+  }
+  .btn::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%);
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(26,140,91,0.4);
+  }
+  .btn:active { transform: translateY(0); }
+  .btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; box-shadow: none; }
+
+  /* Alert */
+  .alert {
+    padding: 12px 16px; border-radius: 12px;
+    font-size: 13px; margin-bottom: 18px;
+    display: none; line-height: 1.5; font-weight: 500;
+  }
+  .alert.error { background: var(--error-bg); border: 1.5px solid rgba(217,79,79,0.2); color: var(--error); }
+  .alert.success { background: var(--success-bg); border: 1.5px solid rgba(34,168,110,0.25); color: var(--emerald); }
+
+  .form-panel { display: none; }
+  .form-panel.active { display: block; }
+
+  .footer { text-align: center; margin-top: 20px; font-size: 12px; color: var(--muted2); }
+</style>
+</head>
+<body>
+<div class="bg-pattern"></div>
+
+<div class="wrapper">
+  <div class="brand">
+    <div class="brand-icon">🥗</div>
+    <h1>Nutri<span>Voice</span> AR</h1>
+    <p>تحليل التغذية الذكي باللغة العربية</p>
+  </div>
+
+  <div class="card">
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('login')">تسجيل الدخول</button>
+      <button class="tab" onclick="switchTab('register')">إنشاء حساب</button>
+    </div>
+
+    <div id="alert" class="alert"></div>
+
+    <div id="loginPanel" class="form-panel active">
+      <div class="form-group">
+        <label>البريد الإلكتروني</label>
+        <div class="input-wrap">
+          <input type="email" id="loginEmail" placeholder="example@email.com" autocomplete="email">
+          <span class="input-icon">✉️</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>كلمة المرور</label>
+        <div class="input-wrap">
+          <input type="password" id="loginPassword" placeholder="••••••••" autocomplete="current-password">
+          <span class="input-icon">🔑</span>
+        </div>
+      </div>
+      <button class="btn" onclick="doLogin()">الدخول إلى حسابي</button>
+    </div>
+
+    <div id="registerPanel" class="form-panel">
+      <div class="form-group">
+        <label>اسم المستخدم</label>
+        <div class="input-wrap">
+          <input type="text" id="regUsername" placeholder="Ahmed" autocomplete="username">
+          <span class="input-icon">👤</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>البريد الإلكتروني</label>
+        <div class="input-wrap">
+          <input type="email" id="regEmail" placeholder="example@email.com" autocomplete="email">
+          <span class="input-icon">✉️</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>كلمة المرور <span style="text-transform:none;font-weight:400;letter-spacing:0;color:var(--muted2)">(6 أحرف على الأقل)</span></label>
+        <div class="input-wrap">
+          <input type="password" id="regPassword" placeholder="••••••••" autocomplete="new-password">
+          <span class="input-icon">🔒</span>
+        </div>
+      </div>
+      <button class="btn" onclick="doRegister()">إنشاء الحساب</button>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 NutriVoice AR — جميع الحقوق محفوظة</div>
+</div>
+
+<script>
+  if (localStorage.getItem('nutrivoice_token')) window.location.href = '/index';
+  function switchTab(tab) {
+    document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', (i===0)===(tab==='login')));
+    document.getElementById('loginPanel').classList.toggle('active', tab==='login');
+    document.getElementById('registerPanel').classList.toggle('active', tab==='register');
+    hideAlert();
+  }
+  function showAlert(msg, type='error') {
+    const el = document.getElementById('alert');
+    el.textContent = msg; el.className = `alert ${type}`; el.style.display = 'block';
+  }
+  function hideAlert() { document.getElementById('alert').style.display = 'none'; }
+  async function doLogin() {
+    const email = document.getElementById('loginEmail').value.trim();
+    const pwd   = document.getElementById('loginPassword').value;
+    if (!email || !pwd) { showAlert('⚠️ يرجى ملء جميع الحقول'); return; }
+    const btn = event.target; btn.disabled = true; btn.textContent = '⏳ جاري الدخول...';
+    try {
+      const res = await fetch('/api/auth/login', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({email,password:pwd}) });
+      const data = await res.json();
+      if (data.status === 'success') {
+        localStorage.setItem('nutrivoice_token', data.token);
+        localStorage.setItem('nutrivoice_user', JSON.stringify(data.user));
+        showAlert('✅ مرحباً بك! جاري التوجيه...', 'success');
+        setTimeout(() => window.location.href='/index', 800);
+      } else showAlert(data.error || 'خطأ في تسجيل الدخول');
+    } catch { showAlert('❌ خطأ في الاتصال بالخادم'); }
+    finally { btn.disabled = false; btn.textContent = 'الدخول إلى حسابي'; }
+  }
+  async function doRegister() {
+    const username = document.getElementById('regUsername').value.trim();
+    const email    = document.getElementById('regEmail').value.trim();
+    const pwd      = document.getElementById('regPassword').value;
+    if (!username || !email || !pwd) { showAlert('⚠️ يرجى ملء جميع الحقول'); return; }
+    const btn = event.target; btn.disabled = true; btn.textContent = '⏳ جاري الإنشاء...';
+    try {
+      const res = await fetch('/api/auth/register', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({username,email,password:pwd}) });
+      const data = await res.json();
+      if (data.status === 'success') {
+        localStorage.setItem('nutrivoice_token', data.token);
+        localStorage.setItem('nutrivoice_user', JSON.stringify(data.user));
+        showAlert('✅ تم إنشاء الحساب! جاري التوجيه...', 'success');
+        setTimeout(() => window.location.href='/index', 800);
+      } else showAlert(data.error || 'خطأ في إنشاء الحساب');
+    } catch { showAlert('❌ خطأ في الاتصال بالخادم'); }
+    finally { btn.disabled = false; btn.textContent = 'إنشاء الحساب'; }
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter') document.querySelector('.form-panel.active button.btn')?.click();
+  });
+</script>
+</body>
+</html>

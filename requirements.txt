@@ -1,0 +1,18 @@
+# NutriVoice-AR v3.0 — Python dependencies
+flask>=2.3.0
+flask-cors>=4.0.0
+pyjwt>=2.8.0
+python-dotenv>=1.0.0
+
+# Database (optional — falls back to local JSON)
+psycopg2-binary>=2.9.0
+
+# Speech-to-Text (optional)
+openai-whisper>=20231117
+pydub>=0.25.1
+
+# NLP (optional)
+spacy>=3.7.0
+
+# Numeric
+numpy>=1.24.0

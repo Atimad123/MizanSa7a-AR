@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Mizan_SA7a – ميزان صحة | تحليل الوجبات الغذائية</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: #f8fafc;
+      color: #1e2a3a;
+      line-height: 1.5;
+    }
+
+    /* navigation moderne */
+    .navbar {
+      background: #ffffff;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+      border-bottom: 1px solid #e9eef3;
+      padding: 0.75rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #1e7b4e;
+    }
+    .logo i {
+      font-size: 1.8rem;
+      background: #eaf9f1;
+      padding: 8px;
+      border-radius: 16px;
+    }
+    .logo span:first-child { font-size: 1.2rem; }
+    .logo .ar-name {
+      font-size: 1rem;
+      background: #eef4f0;
+      padding: 4px 12px;
+      border-radius: 40px;
+      font-weight: 500;
+      color: #2c5a42;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a, .nav-links button {
+      text-decoration: none;
+      background: transparent;
+      border: none;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #2c5a42;
+    }
+    .nav-links a:hover, .nav-links button:hover {
+      background: #eef4f0;
+    }
+    .user-badge {
+      background: #eef4f0;
+      padding: 0.5rem 1.2rem;
+      border-radius: 40px;
+      font-weight: 600;
+      color: #1e7b4e;
+      margin-left: 0.5rem;
+    }
+    .danger-btn {
+      color: #c0392b !important;
+    }
+    .danger-btn:hover {
+      background: #fee9e7 !important;
+    }
+
+    /* conteneur principal */
+    .container {
+      max-width: 1000px;
+      margin: 1.5rem auto;
+      padding: 0 1.5rem 2rem;
+    }
+
+    /* cartes */
+    .card {
+      background: #ffffff;
+      border-radius: 28px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+      padding: 1.8rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #eef2f6;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #1f3b2c;
+      border-right: 4px solid #2ecc71;
+      padding-right: 0.8rem;
+    }
+    .card-title i {
+      font-size: 1.5rem;
+      color: #2ecc71;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 1rem;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 20px;
+      font-family: inherit;
+      font-size: 1rem;
+      resize: vertical;
+      background: #fefefe;
+      transition: 0.2s;
+    }
+    textarea:focus {
+      border-color: #2ecc71;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+    }
+
+    .examples {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 12px 0;
+    }
+    .example-chip {
+      background: #eef4f0;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: 0.2s;
+      border: 1px solid #d4e2d8;
+    }
+    .example-chip:hover {
+      background: #e0efe6;
+      border-color: #2ecc71;
+    }
+
+    .btn {
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 40px;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #27ae60, #2ecc71);
+      color: white;
+      box-shadow: 0 2px 8px rgba(39, 174, 96, 0.2);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+    }
+    .btn-mic {
+      background: white;
+      border: 1.5px solid #cbdcd2;
+      color: #1e7b4e;
+    }
+    .btn-mic.recording {
+      background: #ffe6e5;
+      border-color: #c0392b;
+      color: #c0392b;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } }
+    .btn-secondary {
+      background: #f1f5f9;
+      color: #2c5a42;
+    }
+    select {
+      padding: 0.6rem 1rem;
+      border-radius: 40px;
+      border: 1.5px solid #e2e8f0;
+      background: white;
+      font-family: inherit;
+    }
+
+    .controls-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .status-bar {
+      background: #fef9e3;
+      padding: 0.8rem;
+      border-radius: 20px;
+      margin-bottom: 1.2rem;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    /* Résultats */
+    .food-item {
+      background: #f9fbf9;
+      border: 1px solid #e0eae4;
+      border-radius: 20px;
+      padding: 0.8rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .food-name {
+      font-weight: 700;
+      color: #1f3b2c;
+    }
+    .food-cal {
+      font-weight: 800;
+      color: #1e7b4e;
+    }
+
+    .macros-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 1rem 0;
+    }
+    .macro-box {
+      background: #f4f8f5;
+      border-radius: 20px;
+      padding: 0.8rem;
+      text-align: center;
+    }
+    .macro-value {
+      font-size: 1.6rem;
+      font-weight: 800;
+    }
+    .progress-bar-bg {
+      background: #e2e8f0;
+      border-radius: 10px;
+      height: 10px;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+    .progress-bar-fill {
+      background: #2ecc71;
+      height: 100%;
+      width: 0%;
+      border-radius: 10px;
+      transition: width 0.5s;
+    }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    .history-item {
+      background: #f9fbf9;
+      border-radius: 20px;
+      padding: 0.8rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .delete-btn {
+      background: none;
+      border: none;
+      color: #c0392b;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 0 1rem 1rem; }
+      .card { padding: 1.2rem; }
+      .macros-grid { grid-template-columns: repeat(2, 1fr); }
+      .controls-row { flex-direction: column; align-items: stretch; }
+      .btn, select { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <i class="fas fa-balance-scale"></i>
+    <span>Mizan_SA7a</span>
+    <span class="ar-name">ميزان صحة</span>
+  </div>
+  <div class="nav-links">
+    <span class="user-badge" id="navUser"><i class="fas fa-user"></i> —</span>
+    <a href="/stats"><i class="fas fa-chart-line"></i> إحصائيات</a>
+    <a href="/profile"><i class="fas fa-user-edit"></i> ملفي</a>
+    <button class="danger-btn" onclick="logout()"><i class="fas fa-sign-out-alt"></i> خروج</button>
+  </div>
+</nav>
+
+<main class="container">
+  <!-- Carte principale analyse -->
+  <div class="card">
+    <div class="card-title">
+      <i class="fas fa-utensils"></i>
+      <span>تحليل الوجبة</span>
+    </div>
+    <textarea id="textInput" rows="3" placeholder="مثال: أكلت 3 بيضات وكأس حليب و100 غرام دجاج وتفاحة..."></textarea>
+    <div class="examples">
+      <span class="example-chip" onclick="setExample(this)">أكلت ثلاث بيضات ودجاج</span>
+      <span class="example-chip" onclick="setExample(this)">وجبة كسكس مع لحم الغنم</span>
+      <span class="example-chip" onclick="setExample(this)">100 غرام رز وسلطة خضار</span>
+      <span class="example-chip" onclick="setExample(this)">موزة وكوب حليب وعسل</span>
+    </div>
+    <div class="controls-row">
+      <button class="btn btn-mic" id="micBtn" onclick="toggleRecording()"><i class="fas fa-microphone"></i> صوت</button>
+      <button class="btn btn-secondary" onclick="clearInput()"><i class="fas fa-eraser"></i> مسح</button>
+      <select id="methodSelect">
+        <option value="normalizer">📝 Normalizer</option>
+        <option value="spacy">🧠 spaCy</option>
+        <option value="llm">🤖 LLM</option>
+      </select>
+      <button class="btn btn-primary" onclick="analyzeWithMethod()"><i class="fas fa-search"></i> تحليل</button>
+    </div>
+    <div class="controls-row">
+      <button class="btn btn-secondary" onclick="compareNER()"><i class="fas fa-balance-scale"></i> مقارنة spaCy vs LLM</button>
+    </div>
+  </div>
+
+  <div id="statusBar" class="status-bar"><i class="fas fa-info-circle"></i> أدخل وجبتك واختر طريقة التحليل</div>
+  <div id="result"></div>
+  <div id="compareResult" style="display:none;"></div>
+
+  <!-- Historique -->
+  <div class="card">
+    <div class="card-title">
+      <i class="fas fa-history"></i>
+      <span>آخر الوجبات</span>
+      <button class="btn btn-secondary" style="margin-right: auto; padding: 0.3rem 0.8rem;" onclick="loadHistory()"><i class="fas fa-sync-alt"></i> تحديث</button>
+    </div>
+    <div id="historyList"><p class="status-bar" style="margin:0;">لا توجد وجبات مسجلة بعد</p></div>
+  </div>
+</main>
+
+<script>
+  // ==================== AUTH ====================
+  const token = localStorage.getItem('nutrivoice_token');
+  if (!token) {
+    alert("أنت غير مسجل الدخول. سيتم تحويلك إلى صفحة التسجيل.");
+    window.location.href = '/login';
+  }
+  function authHeaders() {
+    return { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` };
+  }
+
+  async function loadUser() {
+    try {
+      const res = await fetch('/api/auth/me', { headers: authHeaders() });
+      const d = await res.json();
+      if (d.status === 'success') {
+        document.getElementById('navUser').innerHTML = `<i class="fas fa-user-circle"></i> ${d.user.username}`;
+      } else logout();
+    } catch(e) { logout(); }
+  }
+  function logout() {
+    localStorage.removeItem('nutrivoice_token');
+    window.location.href = '/login';
+  }
+
+  // ==================== UI HELPERS ====================
+  function setStatus(msg, type = '') {
+    const el = document.getElementById('statusBar');
+    el.innerHTML = `<i class="fas fa-${type === 'error' ? 'exclamation-triangle' : (type === 'success' ? 'check-circle' : 'info-circle')}"></i> ${msg}`;
+    el.style.background = type === 'error' ? '#fee9e7' : (type === 'success' ? '#e0f2e9' : '#fef9e3');
+  }
+  function setExample(el) { document.getElementById('textInput').value = el.innerText; }
+  function clearInput() {
+    document.getElementById('textInput').value = '';
+    document.getElementById('result').innerHTML = '';
+    document.getElementById('compareResult').style.display = 'none';
+    setStatus('📌 جاهز للتحليل', '');
+  }
+
+  // ==================== AUDIO ====================
+  let recognition = null, isRecording = false;
+  function initSpeech() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) {
+      setStatus('❌ المتصفح لا يدعم التعرف الصوتي', 'error');
+      document.getElementById('micBtn').disabled = true;
+      return;
+    }
+    recognition = new SR();
+    recognition.lang = 'ar-SA';
+    recognition.continuous = false;
+    recognition.interimResults = false;
+    recognition.onstart = () => {
+      isRecording = true;
+      const btn = document.getElementById('micBtn');
+      btn.classList.add('recording');
+      btn.innerHTML = '<i class="fas fa-stop"></i> إيقاف';
+      setStatus('🔴 جاري الاستماع...', '');
+    };
+    recognition.onresult = (e) => {
+      const text = e.results[0][0].transcript;
+      document.getElementById('textInput').value = text;
+      setStatus('✅ تم التعرف على النص', 'success');
+    };
+    recognition.onerror = (e) => {
+      setStatus(e.error === 'not-allowed' ? '❌ لم يُسمح بالميكروفون' : '❌ فشل التعرف', 'error');
+      stopRec();
+    };
+    recognition.onend = () => stopRec();
+  }
+  function stopRec() {
+    try { if (recognition) recognition.stop(); } catch(e) {}
+    isRecording = false;
+    const btn = document.getElementById('micBtn');
+    btn.classList.remove('recording');
+    btn.innerHTML = '<i class="fas fa-microphone"></i> صوت';
+  }
+  async function toggleRecording() {
+    if (!recognition) initSpeech();
+    if (!recognition) return;
+    if (isRecording) stopRec();
+    else {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        stream.getTracks().forEach(t => t.stop());
+        recognition.start();
+      } catch(e) {
+        setStatus('❌ تعذّر الوصول إلى الميكروفون', 'error');
+      }
+    }
+  }
+
+  // ==================== ANALYSE ====================
+  async function analyzeWithMethod() {
+    const text = document.getElementById('textInput').value.trim();
+    const method = document.getElementById('methodSelect').value;
+    if (!text) { setStatus('⚠️ الرجاء إدخال وصف الوجبة', 'error'); return; }
+    const btn = document.querySelector('.btn-primary');
+    const originalText = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-pulse"></i> جاري التحليل...';
+    setStatus('⏳ جاري تحليل الوجبة...', '');
+    try {
+      const res = await fetch('/api/analyze', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ text, method })
+      });
+      const data = await res.json();
+      if (data.status === 'success') {
+        displayResult(data);
+        setStatus(`✅ تم اكتشاف ${data.foods_found} من ${data.foods_total} غذاء (${data.ner_time_ms}ms)`, 'success');
+        loadHistory();
+      } else {
+        setStatus('❌ خطأ: ' + (data.error || 'غير معروف'), 'error');
+      }
+    } catch(err) {
+      setStatus('❌ فشل الاتصال بالخادم', 'error');
+    } finally {
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+    }
+  }
+
+  function displayResult(data) {
+    const resultDiv = document.getElementById('result');
+    let foodsHtml = '<div class="card"><div class="card-title"><i class="fas fa-apple-alt"></i> الأغذية المكتشفة</div>';
+    if (!data.foods.length) foodsHtml += '<p>لم يتم اكتشاف أي غذاء معروف</p>';
+    else {
+      for (let f of data.foods) {
+        const cal = f.nutrition ? Math.round(f.nutrition.calories) : 0;
+        foodsHtml += `
+          <div class="food-item">
+            <div>
+              <span class="food-name">${f.found ? '✓' : '✗'} ${f.food_ar}</span>
+              <div style="font-size:0.8rem; color:#6b8f77;">${f.weight_g}غ · ${f.unit}</div>
+            </div>
+            <div class="food-cal">${f.found ? cal + ' سعرة' : 'غير موجود'}</div>
+          </div>`;
+      }
+    }
+    foodsHtml += '</div>';
+    const n = data.nutrition;
+    const macrosHtml = `
+      <div class="card">
+        <div class="card-title"><i class="fas fa-chart-pie"></i> القيم الغذائية الإجمالية</div>
+        <div class="macros-grid">
+          <div class="macro-box"><div class="macro-value">${Math.round(n.calories)}</div><div><i class="fas fa-fire"></i> سعرات</div></div>
+          <div class="macro-box"><div class="macro-value">${n.protein.toFixed(1)}</div><div><i class="fas fa-drumstick-bite"></i> بروتين (غ)</div></div>
+          <div class="macro-box"><div class="macro-value">${n.carbs.toFixed(1)}</div><div><i class="fas fa-bread-slice"></i> كربوهيدرات (غ)</div></div>
+          <div class="macro-box"><div class="macro-value">${n.fat.toFixed(1)}</div><div><i class="fas fa-oil-can"></i> دهون (غ)</div></div>
+        </div>
+      </div>`;
+    resultDiv.innerHTML = foodsHtml + macrosHtml;
+    renderTargets(n);
+  }
+
+  async function renderTargets(meal) {
+    try {
+      const res = await fetch('/api/targets', { headers: authHeaders() });
+      const data = await res.json();
+      if (data.status === 'success') {
+        const targets = data.targets;
+        let html = '<div class="card"><div class="card-title"><i class="fas fa-bullseye"></i> نسبة الاحتياج اليومي</div>';
+        const items = [
+          { key: 'calories', label: 'سعرات حرارية', unit: 'ك.ح', color: '#1e7b4e' },
+          { key: 'protein', label: 'بروتين', unit: 'غ', color: '#2c5a42' },
+          { key: 'carbs', label: 'كربوهيدرات', unit: 'غ', color: '#d97706' },
+          { key: 'fat', label: 'دهون', unit: 'غ', color: '#c0392b' }
+        ];
+        for (let it of items) {
+          const val = meal[it.key] || 0;
+          const target = targets[it.key] || 1;
+          const pct = Math.min(100, Math.round(val / target * 100));
+          html += `
+            <div class="progress-label">
+              <span>${it.label}</span>
+              <span>${val.toFixed(1)} ${it.unit} / ${target} (${pct}%)</span>
+            </div>
+            <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${pct}%; background:${it.color};"></div></div>
+          `;
+        }
+        html += '</div>';
+        document.getElementById('result').innerHTML += html;
+      }
+    } catch(e) {}
+  }
+
+  // ==================== COMPARAISON ====================
+  async function compareNER() {
+    const text = document.getElementById('textInput').value.trim();
+    if (!text) { setStatus('⚠️ أدخل نصاً للمقارنة', 'error'); return; }
+    setStatus('⏳ جاري المقارنة...', '');
+    try {
+      const res = await fetch('/api/compare_ner', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ text })
+      });
+      const data = await res.json();
+      if (data.status === 'success') {
+        const spacyFoods = (data.spacy.foods || []).map(f => f.food_ar).join(', ');
+        const llmFoods = (data.llm.foods || []).map(f => f.food_ar).join(', ');
+        document.getElementById('compareResult').style.display = 'block';
+        document.getElementById('compareResult').innerHTML = `
+          <div class="card">
+            <div class="card-title"><i class="fas fa-code-branch"></i> مقارنة الطريقتين</div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div style="background:#f4f8f5; border-radius:20px; padding:1rem;">
+                <h4><i class="fas fa-brain"></i> spaCy</h4>
+                <p>${spacyFoods || 'لا أطعمة'}</p>
+                <small>⏱️ ${data.spacy.ner_time_ms}ms</small>
+              </div>
+              <div style="background:#f4f8f5; border-radius:20px; padding:1rem;">
+                <h4><i class="fas fa-robot"></i> LLM</h4>
+                <p>${llmFoods || 'لا أطعمة'}</p>
+                <small>⏱️ ${data.llm.ner_time_ms}ms</small>
+              </div>
+            </div>
+          </div>`;
+        setStatus('✅ تمت المقارنة', 'success');
+      } else setStatus('❌ فشل المقارنة', 'error');
+    } catch(e) { setStatus('❌ خطأ', 'error'); }
+  }
+
+  // ==================== HISTORIQUE ====================
+  async function loadHistory() {
+    try {
+      const res = await fetch('/api/history?limit=8', { headers: authHeaders() });
+      const data = await res.json();
+      const meals = data.meals || [];
+      const listDiv = document.getElementById('historyList');
+      if (!meals.length) {
+        listDiv.innerHTML = '<p class="status-bar" style="margin:0;">لا توجد وجبات مسجلة بعد</p>';
+        return;
+      }
+      listDiv.innerHTML = meals.map(m => {
+        const cal = Math.round(m.nutrition?.calories || 0);
+        const date = new Date(m.created_at);
+        return `
+          <div class="history-item">
+            <div style="flex:1">
+              <div style="font-weight:500;">${m.meal_text || 'وجبة'}</div>
+              <div style="font-size:0.75rem; color:#6b8f77;">${date.toLocaleDateString()} ${date.toLocaleTimeString()}</div>
+            </div>
+            <div style="font-weight:700; color:#1e7b4e;">${cal} <i class="fas fa-fire"></i></div>
+            <button class="delete-btn" onclick="deleteMeal('${m.id}')"><i class="fas fa-trash-alt"></i></button>
+          </div>`;
+      }).join('');
+    } catch(e) {}
+  }
+  async function deleteMeal(id) {
+    if (confirm('حذف هذه الوجبة؟')) {
+      await fetch(`/api/history/${id}`, { method: 'DELETE', headers: authHeaders() });
+      loadHistory();
+    }
+  }
+
+  // Initialisation
+  loadUser();
+  loadHistory();
+  initSpeech();
+  document.getElementById('textInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && e.ctrlKey) analyzeWithMethod();
+  });
+</script>
+</body>
+</html>

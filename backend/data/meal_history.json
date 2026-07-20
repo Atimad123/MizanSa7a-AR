@@ -1,0 +1,4817 @@
+[
+  {
+    "id": "97663deb",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:06",
+    "created_at": "2026-05-06T10:06:37.454565",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 300.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 300.0,
+          "calories": 495.0,
+          "protein": 93.0,
+          "carbs": 0.0,
+          "fat": 10.8,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 750.8,
+      "protein": 114.4,
+      "carbs": 1.8,
+      "fat": 28.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "a0c6fdec",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:06",
+    "created_at": "2026-05-06T10:06:45.920162",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "eb3966aa",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:06",
+    "created_at": "2026-05-06T10:06:57.506466",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 130.0,
+          "protein": 2.7,
+          "carbs": 28.0,
+          "fat": 0.3,
+          "fiber": 0.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 130.0,
+      "protein": 2.7,
+      "carbs": 28.0,
+      "fat": 0.3,
+      "fiber": 0.4
+    }
+  },
+  {
+    "id": "c549e591",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:07",
+    "created_at": "2026-05-06T10:07:02.945825",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "حليب",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 42.0,
+          "protein": 3.4,
+          "carbs": 5.0,
+          "fat": 1.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "موز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 89.0,
+          "protein": 1.1,
+          "carbs": 23.0,
+          "fat": 0.3,
+          "fiber": 2.6
+        },
+        "found": true
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "عسل",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 304.0,
+          "protein": 0.3,
+          "carbs": 82.0,
+          "fat": 0.0,
+          "fiber": 0.2
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 435.0,
+      "protein": 4.8,
+      "carbs": 110.0,
+      "fat": 1.3,
+      "fiber": 2.8
+    }
+  },
+  {
+    "id": "9e74d350",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:12",
+    "created_at": "2026-05-06T10:12:28.614168",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 130.0,
+          "protein": 2.7,
+          "carbs": 28.0,
+          "fat": 0.3,
+          "fiber": 0.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 130.0,
+      "protein": 2.7,
+      "carbs": 28.0,
+      "fat": 0.3,
+      "fiber": 0.4
+    }
+  },
+  {
+    "id": "bb1d4235",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:12",
+    "created_at": "2026-05-06T10:12:34.454969",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 300.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 300.0,
+          "calories": 495.0,
+          "protein": 93.0,
+          "carbs": 0.0,
+          "fat": 10.8,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 750.8,
+      "protein": 114.4,
+      "carbs": 1.8,
+      "fat": 28.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "e92daab5",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:16",
+    "created_at": "2026-05-06T10:16:55.668354",
+    "text": "اكلت ثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "51efbddc",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:17",
+    "created_at": "2026-05-06T10:17:19.034670",
+    "text": "اكلت 100 غ ارز وخمس موزات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "موز",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 89.0,
+          "protein": 1.1,
+          "carbs": 23.0,
+          "fat": 0.3,
+          "fiber": 2.6
+        },
+        "found": true
+      },
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 130.0,
+          "protein": 2.7,
+          "carbs": 28.0,
+          "fat": 0.3,
+          "fiber": 0.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 219.0,
+      "protein": 3.8,
+      "carbs": 51.0,
+      "fat": 0.6,
+      "fiber": 3.0
+    }
+  },
+  {
+    "id": "aaf5be4d",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:18",
+    "created_at": "2026-05-06T10:18:16.473434",
+    "text": "اكلت ثلاث بيضات وكاس حليب و 100 غ دجاج وتفاحه",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 300.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 300.0,
+          "calories": 495.0,
+          "protein": 93.0,
+          "carbs": 0.0,
+          "fat": 10.8,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "piece",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "حليب",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 42.0,
+          "protein": 3.4,
+          "carbs": 5.0,
+          "fat": 1.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "تفاح",
+        "food_en": "apple",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "تفاح",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 52.0,
+          "protein": 0.3,
+          "carbs": 14.0,
+          "fat": 0.2,
+          "fiber": 2.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 844.8,
+      "protein": 118.1,
+      "carbs": 20.8,
+      "fat": 30.1,
+      "fiber": 2.4
+    }
+  },
+  {
+    "id": "643924d2",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:18",
+    "created_at": "2026-05-06T10:18:59.458749",
+    "text": "اكلت شربت كاس من الشاي ومسمن",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "مسمن",
+        "food_en": "msemen",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "مسمن",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 365.0,
+          "protein": 9.0,
+          "carbs": 52.0,
+          "fat": 14.0,
+          "fiber": 2.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "شاي",
+        "food_en": "tea",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "شاي",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 2.0,
+          "protein": 0.0,
+          "carbs": 0.5,
+          "fat": 0.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 367.0,
+      "protein": 9.0,
+      "carbs": 52.5,
+      "fat": 14.0,
+      "fiber": 2.0
+    }
+  },
+  {
+    "id": "337c4156",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:20",
+    "created_at": "2026-05-06T10:20:42.077628",
+    "text": "شربت كاس ليمون وتفاحه وموزه وسلطه خضر",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "تفاح",
+        "food_en": "apple",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "تفاح",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 52.0,
+          "protein": 0.3,
+          "carbs": 14.0,
+          "fat": 0.2,
+          "fiber": 2.4
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "موز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 89.0,
+          "protein": 1.1,
+          "carbs": 23.0,
+          "fat": 0.3,
+          "fiber": 2.6
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 141.0,
+      "protein": 1.4,
+      "carbs": 37.0,
+      "fat": 0.5,
+      "fiber": 5.0
+    }
+  },
+  {
+    "id": "77564eef",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:58",
+    "created_at": "2026-05-06T10:58:47.707189",
+    "text": "اكلت ثلاث بيضات و 100 غ الوز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "db1f6ee3",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:59",
+    "created_at": "2026-05-06T10:59:03.565167",
+    "text": "اكلت ثلاث بيضات و 100 غ الوز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "6acd94a5",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:59",
+    "created_at": "2026-05-06T10:59:05.996547",
+    "text": "اكلت ثلاث بيضات و 100 غ الوز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "d59986a7",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:59",
+    "created_at": "2026-05-06T10:59:08.932179",
+    "text": "اكلت ثلاث بيضات و 100 غ الوز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "f405b2d4",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "10:59",
+    "created_at": "2026-05-06T10:59:12.318058",
+    "text": "اكلت ثلاث بيضات و 100 غ الوز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 21.4,
+      "carbs": 1.8,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "9c7fc234",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:04",
+    "created_at": "2026-05-06T11:04:39.900416",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 52.4,
+      "carbs": 1.8,
+      "fat": 21.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "0209387a",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:05",
+    "created_at": "2026-05-06T11:05:36.285433",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "llm",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "local",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 52.4,
+      "carbs": 1.8,
+      "fat": 21.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "de509cf4",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:23",
+    "created_at": "2026-05-06T11:23:33.121002",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "d5073e3b",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:23",
+    "created_at": "2026-05-06T11:23:38.134863",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "llm",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "bab63dc6",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:28",
+    "created_at": "2026-05-06T11:28:21.466862",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "5dfe9cda",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:28",
+    "created_at": "2026-05-06T11:28:36.622119",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "9ac1e9e2",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:29",
+    "created_at": "2026-05-06T11:29:07.691735",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 130.0,
+          "protein": 2.7,
+          "carbs": 28.0,
+          "fat": 0.3,
+          "fiber": 0.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 130.0,
+      "protein": 2.7,
+      "carbs": 28.0,
+      "fat": 0.3,
+      "fiber": 0.4
+    }
+  },
+  {
+    "id": "ff0aff2e",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:29",
+    "created_at": "2026-05-06T11:29:21.129962",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 130.0,
+          "protein": 2.7,
+          "carbs": 28.0,
+          "fat": 0.3,
+          "fiber": 0.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 130.0,
+      "protein": 2.7,
+      "carbs": 28.0,
+      "fat": 0.3,
+      "fiber": 0.4
+    }
+  },
+  {
+    "id": "3884c701",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:35",
+    "created_at": "2026-05-06T11:35:09.248868",
+    "text": "اكلت فيلي دجاج مشوي",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "70a831db",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:40",
+    "created_at": "2026-05-06T11:40:02.519904",
+    "text": "اكلت فيلي دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "cbcbc89b",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:42",
+    "created_at": "2026-05-06T11:42:31.212947",
+    "text": "اكلت فيلي دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "906124a2",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:50",
+    "created_at": "2026-05-06T11:50:18.652779",
+    "text": "اكلت فيلي دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "9c0ac394",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:52",
+    "created_at": "2026-05-06T11:52:57.691313",
+    "text": "اكلت كسكس دجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 1.4
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 277.0,
+      "protein": 34.8,
+      "carbs": 23.0,
+      "fat": 3.8,
+      "fiber": 1.4
+    }
+  },
+  {
+    "id": "d6502331",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:54",
+    "created_at": "2026-05-06T11:54:30.769182",
+    "text": "اكلت فيلي دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "aeaad081",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "11:57",
+    "created_at": "2026-05-06T11:57:04.203730",
+    "text": "اكلت فيري دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "2d486d88",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:00",
+    "created_at": "2026-05-06T12:00:46.540550",
+    "text": "اكلت في لدجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "419a7963",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:01",
+    "created_at": "2026-05-06T12:01:34.661467",
+    "text": "\"فيليه دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "فيليه دجاج مشوي",
+        "food_en": "فيليه دجاج مشوي",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "فيليه دجاج مشوي",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 330.0,
+      "protein": 62.0,
+      "carbs": 0.0,
+      "fat": 7.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "b9736f2d",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:03",
+    "created_at": "2026-05-06T12:03:02.334882",
+    "text": "\"فيليه دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "8b2ac888",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:04",
+    "created_at": "2026-05-06T12:04:34.067804",
+    "text": "✓ فيليه دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "d488dafe",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:07",
+    "created_at": "2026-05-06T12:07:06.965517",
+    "text": "✓ فيليه دجاج مشوي",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "فيليه دجاج مشوي",
+        "food_en": "فيليه دجاج مشوي",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "فيليه دجاج مشوي",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 330.0,
+      "protein": 62.0,
+      "carbs": 0.0,
+      "fat": 7.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "62d0a6ce",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:07",
+    "created_at": "2026-05-06T12:07:23.852878",
+    "text": "✓ فيليه دجاج مشوي",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "فيليه دجاج مشوي",
+        "food_en": "فيليه دجاج مشوي",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "فيليه دجاج مشوي",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 330.0,
+      "protein": 62.0,
+      "carbs": 0.0,
+      "fat": 7.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "b9c66515",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:07",
+    "created_at": "2026-05-06T12:07:32.111467",
+    "text": "✓ فيليه دجاج مشوي",
+    "method": "llm",
+    "foods": [
+      {
+        "food_ar": "فيليه دجاج مشوي",
+        "food_en": "فيليه دجاج مشوي",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "فيليه دجاج مشوي",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "local",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 330.0,
+      "protein": 62.0,
+      "carbs": 0.0,
+      "fat": 7.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "e2c87ba8",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "12:54",
+    "created_at": "2026-05-06T12:54:05.478289",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "حليب",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 42.0,
+          "protein": 3.4,
+          "carbs": 5.0,
+          "fat": 1.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "عسل",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 304.0,
+          "protein": 0.3,
+          "carbs": 82.0,
+          "fat": 0.0,
+          "fiber": 0.2
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100,
+        "nutrition": {
+          "name_ar": "موز",
+          "source": "local",
+          "weight_g": 100,
+          "calories": 89.0,
+          "protein": 1.1,
+          "carbs": 23.0,
+          "fat": 0.3,
+          "fiber": 2.6
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 435.0,
+      "protein": 4.8,
+      "carbs": 110.0,
+      "fat": 1.3,
+      "fiber": 2.8
+    }
+  },
+  {
+    "id": "3a9c56d1",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:15",
+    "created_at": "2026-05-06T14:15:17.219242",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100.0,
+        "unit": "غرام",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "091a30a7",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:15",
+    "created_at": "2026-05-06T14:15:32.023679",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "84e90648",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:15",
+    "created_at": "2026-05-06T14:15:44.853512",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "46895017",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:16",
+    "created_at": "2026-05-06T14:16:24.942765",
+    "text": "100 غرام رز وسلطة خضار",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100.0,
+        "unit": "غرام",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "f4298b37",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:16",
+    "created_at": "2026-05-06T14:16:28.997221",
+    "text": "شريت كاس من الثناي ومسمن",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "مسمن",
+        "food_en": "msemen",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "221e7c24",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:22",
+    "created_at": "2026-05-06T14:22:04.395407",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "672ab647",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:24",
+    "created_at": "2026-05-06T14:24:58.253342",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c4a20150",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:31",
+    "created_at": "2026-05-06T14:31:20.049880",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "شوكولاتة الحليب العضوية",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 564.0,
+          "protein": 6.6,
+          "carbs": 52.0,
+          "fat": 37.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حلوى العسل والليمون",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 310.0,
+          "protein": 21.1,
+          "carbs": 31.8,
+          "fat": 14.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "رقائق الموز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 395.3,
+          "protein": 2.3,
+          "carbs": 53.5,
+          "fat": 20.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 1269.3,
+      "protein": 30.0,
+      "carbs": 137.3,
+      "fat": 72.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "50ac254e",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:32",
+    "created_at": "2026-05-06T14:32:48.014280",
+    "text": "شربت عسل مع خبز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حلوى العسل والليمون",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 310.0,
+          "protein": 21.1,
+          "carbs": 31.8,
+          "fat": 14.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "خبز",
+        "food_en": "bread",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حظيرة خبز الغداء غرامة ز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 500.0,
+          "protein": 20.0,
+          "carbs": 40.0,
+          "fat": 40.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 810.0,
+      "protein": 41.1,
+      "carbs": 71.8,
+      "fat": 54.3,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "1ba1fe67",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:33",
+    "created_at": "2026-05-06T14:33:00.776444",
+    "text": "شربت عسل مع خبز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حلوى العسل والليمون",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 310.0,
+          "protein": 21.1,
+          "carbs": 31.8,
+          "fat": 14.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "خبز",
+        "food_en": "bread",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حظيرة خبز الغداء غرامة ز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 500.0,
+          "protein": 20.0,
+          "carbs": 40.0,
+          "fat": 40.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 810.0,
+      "protein": 41.1,
+      "carbs": 71.8,
+      "fat": 54.3,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c4c48161",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:33",
+    "created_at": "2026-05-06T14:33:08.294954",
+    "text": "شربت كاس ليمون مع خبز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "خبز",
+        "food_en": "bread",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حظيرة خبز الغداء غرامة ز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 500.0,
+          "protein": 20.0,
+          "carbs": 40.0,
+          "fat": 40.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 500.0,
+      "protein": 20.0,
+      "carbs": 40.0,
+      "fat": 40.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "753c08ee",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:33",
+    "created_at": "2026-05-06T14:33:24.144812",
+    "text": "شربت عصير ليمون مع خبز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "خبز",
+        "food_en": "bread",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حظيرة خبز الغداء غرامة ز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 500.0,
+          "protein": 20.0,
+          "carbs": 40.0,
+          "fat": 40.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 500.0,
+      "protein": 20.0,
+      "carbs": 40.0,
+      "fat": 40.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "527f23d1",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:33",
+    "created_at": "2026-05-06T14:33:57.544511",
+    "text": "تناولت 100 غرام دجاج و 200 غرام أرز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "غرام",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "تناسب أصبع سنيكرز تويست",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 466.0,
+          "protein": 23.0,
+          "carbs": 35.0,
+          "fat": 27.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 642.0,
+      "protein": 30.9,
+      "carbs": 62.0,
+      "fat": 30.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "6c8b16c9",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:34",
+    "created_at": "2026-05-06T14:34:15.920391",
+    "text": "أكلت موزة وكأس حليب",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "شوكولاتة الحليب العضوية",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 564.0,
+          "protein": 6.6,
+          "carbs": 52.0,
+          "fat": 37.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "رقائق الموز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 395.3,
+          "protein": 2.3,
+          "carbs": 53.5,
+          "fat": 20.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 959.3,
+      "protein": 8.9,
+      "carbs": 105.5,
+      "fat": 57.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "17ee3964",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:49",
+    "created_at": "2026-05-06T14:49:26.587139",
+    "text": "اكلت 100 غ دجاج و 100 غ ارز وخمس تمرات وكاس ليمون وكاس عصير برتقال وكاس حليب وتفاحه وموزه",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "غ",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "تمر",
+        "food_en": "dates",
+        "quantity": 5,
+        "unit": "حبة",
+        "weight_g": 40,
+        "nutrition": {
+          "name_ar": "الكثير من البروتين والتمر الهندي واللوز",
+          "source": "postgres",
+          "weight_g": 40,
+          "calories": 247.0,
+          "protein": 11.0,
+          "carbs": 3.0,
+          "fat": 20.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "تفاح",
+        "food_en": "apple",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كعكة الغريبة التفاح والكستناء",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 540.0,
+          "protein": 6.8,
+          "carbs": 54.0,
+          "fat": 28.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "شوكولاتة الحليب العضوية",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 564.0,
+          "protein": 6.6,
+          "carbs": 52.0,
+          "fat": 37.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بروتين متعدد المكونات ج الموز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 361.0,
+          "protein": 85.5,
+          "carbs": 2.5,
+          "fat": 1.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "تناسب أصبع سنيكرز تويست",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 466.0,
+          "protein": 23.0,
+          "carbs": 35.0,
+          "fat": 27.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 2354.0,
+      "protein": 140.8,
+      "carbs": 173.5,
+      "fat": 116.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "44ca0384",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "14:54",
+    "created_at": "2026-05-06T14:54:35.219656",
+    "text": "اكلت 100 غ ارز و 100 غ دجاج وكاس حليب وثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "غ",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "شوكولاتة الحليب العضوية",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 564.0,
+          "protein": 6.6,
+          "carbs": 52.0,
+          "fat": 37.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "تناسب أصبع سنيكرز تويست",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 466.0,
+          "protein": 23.0,
+          "carbs": 35.0,
+          "fat": 27.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 1864.3,
+      "protein": 38.0,
+      "carbs": 270.8,
+      "fat": 70.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "d1a31154",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:17",
+    "created_at": "2026-05-06T15:17:59.213959",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس ملكي",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 8.4,
+          "carbs": 14.1,
+          "fat": 6.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 8.4,
+      "carbs": 14.1,
+      "fat": 6.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "3eef57d6",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:21",
+    "created_at": "2026-05-06T15:21:29.611464",
+    "text": "موزة وكوب حليب وعسل",
+    "method": "llm",
+    "foods": [
+      {
+        "food_ar": "حليب",
+        "food_en": "milk",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "شوكولاتة الحليب العضوية",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 564.0,
+          "protein": 6.6,
+          "carbs": 52.0,
+          "fat": 37.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "موز",
+        "food_en": "banana",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بروتين متعدد المكونات ج الموز",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 361.0,
+          "protein": 85.5,
+          "carbs": 2.5,
+          "fat": 1.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "عسل",
+        "food_en": "honey",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "حلوى العسل والليمون",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 310.0,
+          "protein": 21.1,
+          "carbs": 31.8,
+          "fat": 14.3,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 1235.0,
+      "protein": 113.2,
+      "carbs": 86.3,
+      "fat": 52.3,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "438064e9",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:36",
+    "created_at": "2026-05-06T15:36:02.261509",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس ملكي",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 8.4,
+          "carbs": 14.1,
+          "fat": 6.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 8.4,
+      "carbs": 14.1,
+      "fat": 6.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "01e09212",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:36",
+    "created_at": "2026-05-06T15:36:08.266002",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس ملكي",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 8.4,
+          "carbs": 14.1,
+          "fat": 6.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 8.4,
+      "carbs": 14.1,
+      "fat": 6.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "367cd267",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:38",
+    "created_at": "2026-05-06T15:38:06.541689",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "f4ad0b04",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:41",
+    "created_at": "2026-05-06T15:41:41.917160",
+    "text": "اكلت 100 غ دجاج 100 غ ارز وخمس تمرات",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "غ",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "تمر",
+        "food_en": "dates",
+        "quantity": 5,
+        "unit": "حبة",
+        "weight_g": 40,
+        "nutrition": {
+          "name_ar": "الكثير من البروتين والتمر الهندي واللوز",
+          "source": "postgres",
+          "weight_g": 40,
+          "calories": 247.0,
+          "protein": 11.0,
+          "carbs": 3.0,
+          "fat": 20.0,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "تناسب أصبع سنيكرز تويست",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 466.0,
+          "protein": 23.0,
+          "carbs": 35.0,
+          "fat": 27.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 889.0,
+      "protein": 41.9,
+      "carbs": 65.0,
+      "fat": 50.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "b09825c5",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:42",
+    "created_at": "2026-05-06T15:42:02.075362",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "spacy",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "d6b37870",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "15:58",
+    "created_at": "2026-05-06T15:58:44.957249",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "9b28e800",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "16:07",
+    "created_at": "2026-05-06T16:07:23.302042",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "e21728e3",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "16:24",
+    "created_at": "2026-05-06T16:24:05.666971",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس ملكي",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 8.4,
+          "carbs": 14.1,
+          "fat": 6.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 8.4,
+      "carbs": 14.1,
+      "fat": 6.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "95caf38d",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "16:24",
+    "created_at": "2026-05-06T16:24:08.819766",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "bc094f0f",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "16:30",
+    "created_at": "2026-05-06T16:30:57.368208",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "fc55c42b",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:32",
+    "created_at": "2026-05-06T17:32:46.074084",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "مزيج حديث من عيد الميلاد الأبيض والذهبي",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 658.3,
+          "protein": 0.5,
+          "carbs": 156.8,
+          "fat": 3.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "لفائف ربيع الدجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 176.0,
+          "protein": 7.9,
+          "carbs": 27.0,
+          "fat": 3.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 834.3,
+      "protein": 8.4,
+      "carbs": 183.8,
+      "fat": 6.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "3319376b",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:40",
+    "created_at": "2026-05-06T17:40:25.672717",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "فلبرت أبيض كامل",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 1042.8,
+          "protein": 26.4,
+          "carbs": 26.4,
+          "fat": 102.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج سولني كراليس",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 219.0,
+          "protein": 9.7,
+          "carbs": 30.3,
+          "fat": 5.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 1261.8,
+      "protein": 36.1,
+      "carbs": 56.7,
+      "fat": 108.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "ae57bbec",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:42",
+    "created_at": "2026-05-06T17:42:19.199672",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "فلبرت أبيض كامل",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 1042.8,
+          "protein": 26.4,
+          "carbs": 26.4,
+          "fat": 102.3,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج سولني كراليس",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 219.0,
+          "protein": 9.7,
+          "carbs": 30.3,
+          "fat": 5.9,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 1261.8,
+      "protein": 36.1,
+      "carbs": 56.7,
+      "fat": 108.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "4d15e927",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:45",
+    "created_at": "2026-05-06T17:45:06.313868",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 123.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 288.8,
+      "protein": 41.7,
+      "carbs": 1.0,
+      "fat": 11.8,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "dc0cd31a",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:48",
+    "created_at": "2026-05-06T17:48:37.359220",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 123.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 288.8,
+      "protein": 41.7,
+      "carbs": 1.0,
+      "fat": 11.8,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "4beb7442",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:49",
+    "created_at": "2026-05-06T17:49:25.317848",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "4a5cd3aa",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:51",
+    "created_at": "2026-05-06T17:51:11.621666",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 41.7,
+      "carbs": 1.0,
+      "fat": 11.8,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c63a80e0",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:52",
+    "created_at": "2026-05-06T17:52:41.403845",
+    "text": "بيضة واحدة",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "fdd6a563",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:53",
+    "created_at": "2026-05-06T17:53:25.116060",
+    "text": "100 غرام دجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "غرام",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein": 31.0,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "fa512c0a",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:53",
+    "created_at": "2026-05-06T17:53:45.716949",
+    "text": "200 غرام دجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 200.0,
+        "unit": "غرام",
+        "weight_g": 200.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 200.0,
+          "calories": 330.0,
+          "protein": 62.0,
+          "carbs": 0.0,
+          "fat": 7.2,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 330.0,
+      "protein": 62.0,
+      "carbs": 0.0,
+      "fat": 7.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "a5a5f081",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "17:54",
+    "created_at": "2026-05-06T17:54:16.355108",
+    "text": "نصف كوب أرز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 0.5,
+        "unit": "كوب",
+        "weight_g": 125.0,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "postgres",
+          "weight_g": 125.0,
+          "calories": 162.5,
+          "protein": 3.4,
+          "carbs": 35.0,
+          "fat": 0.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 162.5,
+      "protein": 3.4,
+      "carbs": 35.0,
+      "fat": 0.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "1b5ae8ef",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "18:33",
+    "created_at": "2026-05-06T18:33:11.783443",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 41.7,
+      "carbs": 1.0,
+      "fat": 11.8,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "81db1d04",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "18:33",
+    "created_at": "2026-05-06T18:33:41.603077",
+    "text": "بيضة واحدة",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c315c75b",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "18:34",
+    "created_at": "2026-05-06T18:34:06.951383",
+    "text": "ثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 255.8,
+      "protein": 10.7,
+      "carbs": 1.0,
+      "fat": 8.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "31bad236",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "18:37",
+    "created_at": "2026-05-06T18:37:07.652611",
+    "text": "نصف كوب أرز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 0.5,
+        "unit": "كوب",
+        "weight_g": 125.0,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "postgres",
+          "weight_g": 125.0,
+          "calories": 162.5,
+          "protein": 3.4,
+          "carbs": 35.0,
+          "fat": 0.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 162.5,
+      "protein": 3.4,
+      "carbs": 35.0,
+      "fat": 0.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "75435788",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "18:44",
+    "created_at": "2026-05-06T18:44:22.929510",
+    "text": "نصف كوب أرز",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "رز",
+        "food_en": "rice",
+        "quantity": 0.5,
+        "unit": "كوب",
+        "weight_g": 125.0,
+        "nutrition": {
+          "name_ar": "رز",
+          "source": "postgres",
+          "weight_g": 125.0,
+          "calories": 162.5,
+          "protein": 3.4,
+          "carbs": 35.0,
+          "fat": 0.4,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 162.5,
+      "protein": 3.4,
+      "carbs": 35.0,
+      "fat": 0.4,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "ad1039bd",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:32",
+    "created_at": "2026-05-06T22:32:16.523102",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "5516e371",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:32",
+    "created_at": "2026-05-06T22:32:23.820962",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 10.7,
+          "carbs": 1.0,
+          "fat": 8.2,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 41.7,
+      "carbs": 1.0,
+      "fat": 11.8,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c32fc92e",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:33",
+    "created_at": "2026-05-06T22:33:21.928741",
+    "text": "بيض",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "3bfefd44",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:35",
+    "created_at": "2026-05-06T22:35:36.770853",
+    "text": "بيضة واحدة",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضه",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "e0bab983",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:35",
+    "created_at": "2026-05-06T22:35:58.556201",
+    "text": "بيضه",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضه",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "146b179a",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:36",
+    "created_at": "2026-05-06T22:36:34.064883",
+    "text": "ثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 6.5,
+          "carbs": 0.6,
+          "fat": 5.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 6.5,
+      "carbs": 0.6,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "683c34a4",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:37",
+    "created_at": "2026-05-06T22:37:45.010485",
+    "text": "ثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 13.0,
+      "carbs": 1.1,
+      "fat": 11.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "a0ce88eb",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:38",
+    "created_at": "2026-05-06T22:38:07.373041",
+    "text": "ثلاث بيضات",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein": 13.0,
+      "carbs": 1.1,
+      "fat": 11.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "3b5ce0c0",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:38",
+    "created_at": "2026-05-06T22:38:21.327023",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "f7dcf12d",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:40",
+    "created_at": "2026-05-06T22:40:26.472233",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "ba5abafd",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:42",
+    "created_at": "2026-05-06T22:42:39.891847",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "ba31b86d",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "22:49",
+    "created_at": "2026-05-06T22:49:08.995694",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "c0bd7181",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "23:01",
+    "created_at": "2026-05-06T23:01:39.518344",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "aadeea46",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "23:16",
+    "created_at": "2026-05-06T23:16:10.318404",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "found": false,
+        "nutrition": null
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 320.0,
+      "protein": 44.0,
+      "carbs": 1.1,
+      "fat": 14.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "08c7b551",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "23:16",
+    "created_at": "2026-05-06T23:16:43.494301",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "بيض",
+        "food_en": "egg",
+        "quantity": 100,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 155.0,
+          "protein": 13.0,
+          "carbs": 1.1,
+          "fat": 11.0,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 575.8,
+      "protein": 65.4,
+      "carbs": 2.9,
+      "fat": 32.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "132184c7",
+    "user_id": 1,
+    "date": "2026-05-06",
+    "time": "23:52",
+    "created_at": "2026-05-06T23:52:04.721206",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3.0,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 52.4,
+      "carbs": 1.8,
+      "fat": 21.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "103f6e86",
+    "user_id": 1,
+    "date": "2026-05-19",
+    "time": "14:06",
+    "created_at": "2026-05-19T14:06:34.510588",
+    "text": "أكلت ثلاث بيضات ودجاج",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "بيضات",
+        "food_en": "egg",
+        "quantity": 3.0,
+        "unit": "حبة",
+        "weight_g": 165,
+        "nutrition": {
+          "name_ar": "بيض",
+          "source": "postgres",
+          "weight_g": 165,
+          "calories": 255.8,
+          "protein": 21.4,
+          "carbs": 1.8,
+          "fat": 18.1,
+          "fiber": 0.0
+        },
+        "found": true
+      },
+      {
+        "food_ar": "دجاج",
+        "food_en": "chicken",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "دجاج",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 165.0,
+          "protein": 31.0,
+          "carbs": 0.0,
+          "fat": 3.6,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 420.8,
+      "protein": 52.4,
+      "carbs": 1.8,
+      "fat": 21.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "id": "6f9d4291",
+    "user_id": 1,
+    "date": "2026-05-19",
+    "time": "14:06",
+    "created_at": "2026-05-19T14:06:50.094986",
+    "text": "وجبة كسكس مع لحم الغنم",
+    "method": "normalizer",
+    "foods": [
+      {
+        "food_ar": "كسكس",
+        "food_en": "couscous",
+        "quantity": 100.0,
+        "unit": "g",
+        "weight_g": 100.0,
+        "nutrition": {
+          "name_ar": "كسكس",
+          "source": "postgres",
+          "weight_g": 100.0,
+          "calories": 112.0,
+          "protein": 3.8,
+          "carbs": 23.0,
+          "fat": 0.2,
+          "fiber": 0.0
+        },
+        "found": true
+      }
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 3.8,
+      "carbs": 23.0,
+      "fat": 0.2,
+      "fiber": 0.0
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "lamiae",
+    "email": "lamiae@gmail.com",
+    "password_hash": "cf7cd54be048636f3998877c279c05e9:47e5c7ef2b9f4f3b34a4578920b9bb7db9c7fb018b1fe8ca8e6b1f60ac06d3d9",
+    "created_at": "2026-05-06T10:06:21.549507",
+    "last_login": "2026-05-19T21:50:24.210023"
+  },
+  {
+    "id": 2,
+    "username": "ilham",
+    "email": "ilham@gmail.com",
+    "password_hash": "6102a62aa0e1b0320d3d1ac76d1f32c4:75d9c180ecfbfe9990657d9d5d9c3a646db346653369cff31bda192bdaa77f06",
+    "created_at": "2026-05-19T21:47:16.688551",
+    "last_login": "2026-05-20T14:37:08.141398"
+  },
+  {
+    "id": 3,
+    "username": "imane",
+    "email": "imane@gmail.com",
+    "password_hash": "9344a9e6b51a6598ce65a0a8c21b543e:1c04714e4c04c39a29ff16e70211d035b568899b006643e16aa3e14aecc47065",
+    "created_at": "2026-05-20T12:37:26.490951",
+    "last_login": null
+  }
+]
