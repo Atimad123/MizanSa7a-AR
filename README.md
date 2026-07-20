@@ -170,9 +170,9 @@ NutriVoice-AR/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NutriVoice-AR.git
+git clone https://github.com/YOUR_USERNAME/MizanSa7a.git
 
-cd NutriVoice-AR
+cd MizanSa7a AR
 ```
 
 ---
@@ -400,28 +400,26 @@ Evaluation metrics:
 
 # 📸 Screenshots
 
-## Home
-
-```
-screenshots/home.png
-```
-
 ## Login
 
 ```
-screenshots/login.png
+screenshots\login.jpeg
 ```
 
-## Dashboard
+
+## test
 
 ```
-screenshots/dashboard.png
+screenshots\test.jpeg
+screenshots\analyse.jpeg
 ```
 
 ## Statistics
 
 ```
-screenshots/statistics.png
+screenshots\statistics.jpeg
+screenshots\compare.jpeg
+
 ```
 
 ---
