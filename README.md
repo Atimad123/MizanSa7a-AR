@@ -397,32 +397,27 @@ Evaluation metrics:
 - Accuracy
 
 ---
-
 # 📸 Screenshots
 
 ## Login
 
-```
-screenshots\login.jpeg
-```
+![Login](screenshots/login.jpeg)
 
+---
 
-## test
+## Test
 
-```
-screenshots\test.jpeg
-screenshots\analyse.jpeg
-```
+![Test](screenshots/test.jpeg)
+
+![Analyse](screenshots/analyse.jpeg)
+
+---
 
 ## Statistics
 
-```
-screenshots\statistics.jpeg
-screenshots\compare.jpeg
+![Statistics](screenshots/statistics.jpeg)
 
-```
-
----
+![Comparison](screenshots/compare.jpeg)
 
 # 🔮 Future Improvements
 
