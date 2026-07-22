@@ -170,7 +170,7 @@ NutriVoice-AR/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MizanSa7a.git
+git clone https://github.com/Atimad123/MizanSa7a.git
 
 cd MizanSa7a AR
 ```
